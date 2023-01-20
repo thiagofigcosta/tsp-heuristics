@@ -1,0 +1,21 @@
+NAME: dummy5
+TYPE: TSP
+COMMENT: Thiago's dummy example:
+    A B C D E
+A x 550 685 693 763
+B 550 x 842 471 423
+C 685 842 x 1238 644
+D 693 471 1238 x 892
+E 763 423 644 892 x
+solution = {'tour': [1, 3, 5, 2, 4, 1], 'cost': 2916}
+
+DIMENSION: 5
+EDGE_WEIGHT_TYPE: EUC_2D
+NODE_COORD_SECTION
+1 666.0 223.0
+2 462.0 734.0
+3 11.0 23.0
+4 913.0 871.0
+5 45.0 666.0
+EOF
+
